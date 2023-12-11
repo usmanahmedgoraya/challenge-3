@@ -16,7 +16,7 @@ function App() {
       setRandomNumber((prevNumber) => prevNumber - 1);
 
       // Check if the random number is negative
-      if (randomNumber <= 0) {
+      if (randomNumber == 0) {
         // Stop the interval
         clearInterval(intervalId);
 
