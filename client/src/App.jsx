@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     // Function to fetch random number from the API
     const getRandomNumber = async () => {
-      const response = await fetch('http://localhost:3000/api/random');
+      const response = await fetch('https://challenge-3-lemon.vercel.app/api/random');
       const data = await response.json();
       setRandomNumber(data.number);
     };
