@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gredientClass {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+3,7db9e8+3,207cca+52,1e5799+98 */
+  background: hsla(227, 100%, 23%, 1);
+    background: hsla(227, 100%, 30%, 1);
+    background: linear-gradient(135deg, hsla(227, 100%, 30%, 1) 28%, hsla(222, 44%, 50%, 1) 100%);
+    background: -moz-linear-gradient(135deg, hsla(227, 100%, 30%, 1) 28%, hsla(222, 44%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(135deg, hsla(227, 100%, 30%, 1) 28%, hsla(222, 44%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#002198", endColorstr="#4769B8", GradientType=1 );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
